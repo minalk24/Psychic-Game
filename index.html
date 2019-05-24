@@ -4,58 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <title>The Psychic Game</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
 
 </head>
 
 <body>
-    <div class="container" id="bgImg">
+    <div class="container-fluid" id="bgimg">
         <!-- header -->
         <div class="row">
             <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <h2>The Psychic Game</h2>
-                <p>Guess what letter I'm thinking of!</p>
+            <div class="col-md-4 colorText">
+                <h2 class="mx-auto">The Psychic Game</h2>
+                <p class="mx-auto">Guess what letter I'm thinking of!</p>
+                <div></div>
             </div>
             <div class="col-md-4"></div>
         </div>
 
         <!-- main section -->
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                 <ul class="list-group">
-                    <li class="list-group-item">
+                    <li class="list-group-item displayText">
                         <p id = "wins">
                             Wins:
                         </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item displayText">
                         <p id = "losses">
                             Losses:
                         </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item displayText">
                         <p id = "guessesLeft">
                             Guessesleft:
                         </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item displayText">
                         <p id = "playerInput">
                             Your guesses so far:
                         </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item displayText">
                         <p id = "warningDom">
                             
                         </p>
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-3"></div>
         </div>
     </div>
     <script src="assets/javascript/game.js"></script>
