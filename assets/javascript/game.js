@@ -13,3 +13,15 @@ var lossesDisplay = document.getElementById("losses");
 var guessesLeftDisplay = document.getElementById("guessesleft");
 var playerGuessDisplay = document.getElementById("playerGuesses");
 
+//when user press key then folling function runs
+document.onkeyup = function(event){
+
+    var userGuess = event.key;
+    //event.keycode displays key's specific code
+    console.log("userGuess" + userGuess + event.keyCode);
+
+    //computer guess random value code
+    var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+    console.log(computerGuess);
+
+}
