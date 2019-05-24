@@ -79,14 +79,17 @@ document.onkeyup = function (event) {
         wins++;
         playersChoice = [];
         guessesLeftStill = 9;
+       // img.style.display = "block";
     } else if (guessesLeftStill === 0) {
         losses++;
         playersChoice = [];
         guessesLeftStill = 9;
-
+        //image display none
+        //img.style.display = "none";
     } else {
         guessesLeftStill -= 1;
-
+        //image display none
+        //img.style.display = "none";
     }
     warningDisplay.textContent = "";
 }

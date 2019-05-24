@@ -15,9 +15,9 @@ Choose a letter from A - Z and test your psycic ability to see if you can read a
 ## Click on the following link to deployed site
 [Psychic-Game](https://minalk24.github.io/Psychic-Game/)
 
-<!--
+
  ## Images 
-![# Psychic-Game](assets/images/psychic-Game.png)-->
+![# Psychic-Game](assets/images/game.png)
 
 ## Author
 Minal Kharche
